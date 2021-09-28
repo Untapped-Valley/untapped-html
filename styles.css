@@ -39,6 +39,13 @@ font-family: 'Yeseva One', cursive; */
 	padding: 35px;
 }
 
+@media (min-width: 992px) {
+	.col-lg-5 {
+		flex: 0 0 auto;
+		width: 47%;
+	}
+}
+
 /* Navbar Styles */
 nav {
 	margin-bottom: 30px;
