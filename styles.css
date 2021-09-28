@@ -82,7 +82,9 @@ nav {
 }
 
 /* Footer Styles */
-
+footer {
+	margin-top: 100px;
+}
 
 /* Text Styles */
 .heading {
