@@ -6,6 +6,18 @@ font-family: 'Yeseva One', cursive; */
 	transition: 300ms ease-in-out;
 }
 
+html {
+    height: 100%;
+}
+
+body {
+	background: linear-gradient(to bottom,#9198e5 10%,#66fcf1);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 /* Root Variables */
 :root {
 	--primary-color: #000000;
@@ -49,6 +61,7 @@ font-family: 'Yeseva One', cursive; */
 /* Navbar Styles */
 nav {
 	margin-bottom: 30px;
+	border-bottom: 3px double black;
 }
 
 .untapped-logo {
@@ -60,17 +73,38 @@ nav {
 	font-family: 'Yeseva One', cursive;
 	font-size: 26px;
 	color: var(--primary-color);
+	margin-right: 5%;
 }
 
 .navbar-brand:hover {
 	color: var(--primary-color-light);
 }
 
-.nav-item {
-	margin-left: 30px;
+.nav-item {  
+  display: inline-block;
+  position: relative;
+  margin-left: 30px;
 	font-family: 'Kaisei HarunoUmi', serif;
 	font-size: 16px;
 	margin-bottom: 2px;
+}
+
+.nav-item:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.nav-item:hover:after { 
+  width: 100%; 
+  left: 0; 
 }
 
 .nav-link {
@@ -93,7 +127,7 @@ footer {
 }
 
 h1 {
-	margin-top: 204px;
+	margin-top: 50px;
 	font-family: 'Yeseva One', cursive;
 	font-size: 90px;
 }
