@@ -17,6 +17,10 @@ font-family: 'Yeseva One', cursive; */
 	--higlight-color-dark: #8b263f;
 }
 
+.bg-gray {
+	background-color: var(--secondary-color-dark);
+}
+
 /* Home Styles */
 .home-links {
 	color: var(--highlight-color);
@@ -33,7 +37,7 @@ font-family: 'Yeseva One', cursive; */
 	margin: 30px 0px 30px 0px;
 }
 
-.about-card {
+.back-card {
 	background-color: var(--secondary-color);
 	border-radius: 20px;
 	padding: 35px;
@@ -47,12 +51,8 @@ font-family: 'Yeseva One', cursive; */
 }
 
 /* Navbar Styles */
-nav {
-	margin-bottom: 30px;
-}
-
 .untapped-logo {
-	margin-bottom: 3px;
+	margin-bottom: 1px;
 }
 
 .navbar-brand {
@@ -87,8 +87,16 @@ footer {
 }
 
 /* Text Styles */
+.container {
+	margin: 0px;
+	padding: 30px 8vw;
+	max-width: none;
+}
+
 .heading {
-	max-height: 300px;
+	height: 300px;
+	justify-content: center;
+	align-items: center;
 	margin-bottom: 250px;
 }
 
@@ -103,6 +111,7 @@ h2 {
 	font-weight: 700;
 	font-size: 46px;
 	margin-bottom: 35px;
+	margin-top: 30px;
 }
 
 h3 {
@@ -110,6 +119,12 @@ h3 {
 	font-weight: 700;
 	font-size: 30px;
 	margin-bottom: 25px;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: calc(1.3rem + .3vw)
 }
 
 p {
