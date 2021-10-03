@@ -50,6 +50,27 @@ font-family: 'Yeseva One', cursive; */
 	}
 }
 
+/* Team Styles */
+.team-card {
+	padding-right: 0px;
+    padding-left: 0px;
+	border-color: transparent;
+	border-radius: 20px;
+	background-color: #EDEFF0;
+}
+
+.team-picture {
+	border-radius: 20px;
+}
+
+.team-caption {
+	margin: 7px;
+}
+
+.card-text {
+	margin: 10px 0px;
+}
+
 /* Navbar Styles */
 .untapped-logo {
 	margin-bottom: 1px;
