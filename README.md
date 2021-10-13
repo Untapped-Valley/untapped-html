@@ -1,6 +1,6 @@
 # untapped-valley-html
 
-The html based website being made is for a business-tech organization called Untapped Valley.
+This html based website being made is for a business-tech organization called Untapped Valley.
 
 Untapped is a business-tech orientated not-for-profit organization that is federally backed by the government of Canada. Untapped operates beyond Canada into a worldwide market consisting of the United States and United Kingdom and beyond in the future. 
 
