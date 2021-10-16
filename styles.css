@@ -3,190 +3,190 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Yeseva One', cursive; */
 
 * {
-	transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
 }
 
 /* Root Variables */
 :root {
-	--primary-color: #000000;
-	--primary-color-light: #112d4e;
-	--secondary-color: #f9f7f7;
-	--secondary-color-light: #ffffff;
-	--secondary-color-dark: #edeff0;
-	--highlight-color: #b32c4e;
-	--higlight-color-dark: #8b263f;
+  --primary-color: #000000;
+  --primary-color-light: #112d4e;
+  --secondary-color: #f9f7f7;
+  --secondary-color-light: #ffffff;
+  --secondary-color-dark: #edeff0;
+  --highlight-color: #b32c4e;
+  --higlight-color-dark: #8b263f;
 }
 
 .bg-gray {
-	background-color: var(--secondary-color-dark);
+  background-color: var(--secondary-color-dark);
 }
 
 /* Home Styles */
 .home-links {
-	color: var(--highlight-color);
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-	font-weight: 700;
+  color: var(--highlight-color);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .home-links:hover {
-	color: var(--higlight-color-dark);
+  color: var(--higlight-color-dark);
 }
 
 .heading-button {
-	margin: 30px 0px 30px 0px;
+  margin: 30px 0px 30px 0px;
 }
 
 .back-card {
-	background-color: var(--secondary-color);
-	border-radius: 20px;
-	padding: 35px;
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  padding: 35px;
 }
 
 @media (min-width: 992px) {
-	.col-lg-5 {
-		flex: 0 0 auto;
-		width: 47%;
-	}
+  .col-lg-5 {
+    flex: 0 0 auto;
+    width: 47%;
+  }
 }
 
 /* Team Styles */
 .team-card {
-	padding-right: 0px;
-    padding-left: 0px;
-	border-color: transparent;
-	border-radius: 20px;
-	background-color: #EDEFF0;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-color: transparent;
+  border-radius: 20px;
+  background-color: #edeff0;
 }
 
 .team-picture {
-	border-radius: 20px;
+  border-radius: 20px;
 }
 
 .team-caption {
-	margin: 7px;
+  margin: 7px;
 }
 
 .card-text {
-	margin: 10px 0px;
+  margin: 10px 0px;
 }
 
 /* Navbar Styles */
 .untapped-logo {
-	margin-bottom: 1px;
+  margin-bottom: 1px;
 }
 
 .navbar-brand {
-	margin-top: 4px;
-	font-family: 'Yeseva One', cursive;
-	font-size: 26px;
-	color: var(--primary-color);
+  margin-top: 4px;
+  font-family: "Yeseva One", cursive;
+  font-size: 26px;
+  color: var(--primary-color);
 }
 
 .navbar-brand:hover {
-	color: var(--primary-color-light);
+  color: var(--primary-color-light);
 }
 
 .nav-item {
-	margin-left: 30px;
-	font-family: 'Kaisei HarunoUmi', serif;
-	font-size: 16px;
-	margin-bottom: 2px;
+  margin-left: 30px;
+  font-family: "Kaisei HarunoUmi", serif;
+  font-size: 16px;
+  margin-bottom: 2px;
 }
 
 .nav-link {
-	color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .nav-link:hover {
-	color: var(--primary-color-light);
+  color: var(--primary-color-light);
 }
 
 /* Footer Styles */
 footer {
-	margin-top: 100px;
+  margin-top: 100px;
 }
 
 /* Text Styles */
 .container {
-	margin: 0px;
-	padding: 30px 8vw;
-	max-width: none;
+  margin: 0px;
+  padding: 30px 8vw;
+  max-width: none;
 }
 
 .heading {
-	height: 300px;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 250px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 250px;
 }
 
 h1 {
-	margin-top: 204px;
-	font-family: 'Yeseva One', cursive;
-	font-size: 90px;
+  margin-top: 204px;
+  font-family: "Yeseva One", cursive;
+  font-size: 90px;
 }
 
 h2 {
-	font-family: 'Kaisei HarunoUmi', serif;
-	font-weight: 700;
-	font-size: 46px;
-	margin-bottom: 35px;
-	margin-top: 30px;
+  font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 700;
+  font-size: 46px;
+  margin-bottom: 35px;
+  margin-top: 30px;
 }
 
 h3 {
-	font-family: 'Kaisei HarunoUmi', serif;
-	font-weight: 700;
-	font-size: 30px;
-	margin-bottom: 25px;
+  font-family: "Kaisei HarunoUmi", serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 25px;
 }
 
 h4 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-	font-size: calc(1.3rem + .3vw)
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: calc(1.3rem + 0.3vw);
 }
 
 p {
-	font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .subtitle {
-	margin-top: 17px;
+  margin-top: 17px;
 }
 
 /* Button Styles */
 .main-button {
-	background-color: var(--primary-color-light);
-	color:  var(--secondary-color);
-	transition: 300ms ease-in-out;
-	border-radius: 5px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	padding: 10px 16px;
-	font-weight: 600;
+  background-color: var(--primary-color-light);
+  color: var(--secondary-color);
+  transition: 300ms ease-in-out;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding: 10px 16px;
+  font-weight: 600;
 }
 
 .main-button:hover {
-	background-color:  #0d243d;
-	color:  var(--secondary-color);
+  background-color: #0d243d;
+  color: var(--secondary-color);
 }
 
 .sub-button {
-	background-color: var(--secondary-color);
-	color:  var(--primary-color-light);
-	border-color: var(--primary-color-light);
-	transition: 300ms ease-in-out;
-	border-radius: 5px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	padding: 10px 16px;
-	font-weight: 600;
-	margin-top: 10px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color-light);
+  border-color: var(--primary-color-light);
+  transition: 300ms ease-in-out;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding: 10px 16px;
+  font-weight: 600;
+  margin-top: 10px;
 }
 
 .sub-button:hover {
-	background-color: var(--secondary-color-dark);
-	color: var(--primary-color);
+  background-color: var(--secondary-color-dark);
+  color: var(--primary-color);
 }
