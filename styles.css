@@ -6,6 +6,10 @@ font-family: 'Yeseva One', cursive; */
   transition: 300ms ease-in-out;
 }
 
+html,body {
+    height:100%;
+}
+
 /* Root Variables */
 :root {
   --primary-color: #000000;
@@ -51,6 +55,23 @@ font-family: 'Yeseva One', cursive; */
 }
 
 /* Team Styles */
+
+.team-container {
+  height: 40%;
+}
+
+.team-text {
+  margin-top: 20px;
+}
+
+.team-cards {
+  position: absolute;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
 .team-card {
   padding-right: 0px;
   padding-left: 0px;
